@@ -1,0 +1,162 @@
+/*newspage body css*/
+body {
+  background-size: auto;
+}
+.btn1
+{
+	display :block;
+	background: #DC143C;
+	border:none;
+	button-size:large;
+	border-radius: 5px;
+	font-family: Lato;
+	text-align: center;
+	color: white;
+	padding : 10px;
+	transition: 0.3s;
+}
+
+.btn1:hover
+{
+  text-decoration:underline;
+  background: black;
+  cursor:pointer;
+}
+.btn1:active
+{
+  text-decoration:none;
+  background: black;
+  cursor:pointer;
+}
+
+table
+{
+	padding: 15px;
+}
+
+.data
+{
+
+   padding : 10px;
+   
+ }
+
+
+p
+{
+	text-align: justify; 
+	
+	height:250px;
+	color:black;
+	background-color: #FFF8DC;
+	
+	border-radius: 5px;
+	border: 2px;
+	border-style: solid;
+	border-color:#FFF8DC;
+	
+}
+
+ul .menu 
+{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: blue;
+  overflow: hidden;
+  position: relative;
+  left:34%;
+
+}
+
+li.menu
+{
+  float: left;
+  
+}
+
+.price 
+{
+      color : red;
+}
+
+.seek
+{
+      position: absolute;
+      left:80%;
+      width:200px;
+      height:30px;
+	  background-color: white;
+	  border-radius: 5px;
+	  border: 3px;
+	  border-style: solid;
+	  border-color: black;
+}
+
+.sub
+{
+      position: absolute;
+      left:93%;
+      cursor: pointer;
+      height:29px;
+      width:60px;
+      background-color: #778899;
+      font-weight: bold;
+	  border-radius: 5px;
+	  border:2px;
+	  border-style: solid;
+	  border-color: black;
+}
+
+.sub:hover
+{
+  background-color:#778899;
+  text-decoration:underline;
+}
+
+.que
+{
+    position: absolute;
+    left:2%;
+    height: 5%;
+    width:5%;
+    border-radius: 5px;
+    border:none;
+    background-color: #80ff80;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.ait
+{
+  position:absolute;
+  left:8%;
+  height: 5%;
+  width:5%;
+  border-radius: 5px;
+  border:none;
+  background-color: #bf80ff;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+.que:hover
+{
+  background-color:  #1aff1a;
+}
+
+.ait:hover
+{
+  background-color:  #a64dff;
+}
+
+.topic{
+	
+	color:#141010;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+.topic:hover{
+	text-decoration:underline;
+	
+}

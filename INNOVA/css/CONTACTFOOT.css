@@ -1,0 +1,113 @@
+/*contactus footer css*/
+* {
+margin: 0;
+padding: 0;
+}
+
+
+
+/* Footer */
+
+
+
+footer {
+background: black;
+color: #fcfcfc;
+font-family: "Roboto", sans-serif;
+padding: 10px;
+}
+
+
+
+footer a {
+color: white;
+text-decoration: none;
+}
+
+
+
+footer a:hover {
+text-decoration: underline;
+background-color: blue;
+}
+
+
+
+footer .footer-container {
+display: flex;
+height:300px;
+width: 900px;
+margin: 0 auto;
+
+
+}
+
+
+
+footer ul {
+list-style: none;
+margin-top: 16px;
+padding-left: 10px;
+}
+
+
+
+footer ul li {
+margin: 12px 8px;
+
+}
+
+
+
+footer .footer-left {
+padding-right: 100px;
+border-right: 1px solid ;
+color:white;
+}
+
+
+
+footer .footer-right {
+padding-left: 100px;
+}
+
+
+
+footer .social-icons {
+margin-top: 16px;
+}
+
+
+
+footer .social-icons a {
+text-decoration: none;
+}
+
+
+
+footer .social-icons img {
+margin-top: 16px;
+}
+
+
+
+footer .social-icons img:first-child {
+margin-left: 0;
+}
+
+
+
+footer .footer-right p {
+margin-top: 32px;
+color:white;
+}
+
+footer .footer-right h4 {
+margin-top: 32px;
+color:white;
+}
+
+footer .footer-left h4{
+margin-top: 32px;
+color:white;
+}

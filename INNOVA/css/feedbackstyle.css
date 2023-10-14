@@ -1,0 +1,81 @@
+/*feedback body css*/
+body{
+	background-color:white;
+	background-size : cover;
+	background-position:center;
+	width:100%;
+	height:100%;
+	position:absolute;
+	align-items:center;
+	justify-content:center; 
+	min-height:0px;	
+}
+
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial,Helvetica,sans-serif;
+	outline:none;
+	color: red;
+}
+
+
+.fb{
+	width:500px;
+	background:black;	
+	opacity:0.9;
+	margin:auto;	
+	padding:10px;
+
+}
+
+.fb form{
+	width:100%;
+	text-align:center;
+	padding:25px 20px;
+	font-size: 23px;
+}
+
+form.h1{
+	padding:10px 0;
+
+	
+}
+
+form.id{
+	position:relative;
+}
+
+form input{
+	width:100p%;
+	height:50px;
+	margin:4px 0;
+	border:1px;
+	border-radius:3px;
+	background:white;
+	padding:0 15px;
+	padding-right:45px;
+	font-size:16px;
+}	
+
+form textarea{
+	width:55%;
+	margin:4px 0 ;
+	padding:5px 15px;
+	border:1px;
+	border-radius:3px;
+	background:white;
+	font-size:16px;
+}
+
+.sendbtn{
+	margin-top:5px;
+	border:none;
+	background:aqua;
+	color:black;
+	padding:10px 0;
+	width:40%;
+	font-size:16px;
+	cursor:pointer;
+	border-radius:3px;
+}

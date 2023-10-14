@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Password Recovery Portal</title>
+	<link rel = "stylesheet" href="css/sign in and repw header.css"/></link> <!--link of header style sheet-->
+	<link rel = "stylesheet" href="css/Main for sign and repw.css"/></link>  <!--link of main style sheet-->
+	<link rel = "stylesheet" href="css/sign in and repw footer.css"/></link> <!--link of footer style sheet-->
+     <link rel = " shortcut icon " href = "pictures/about.png">
+	<script src="js/log.js"></script> <!--link of main java script-->
+
+</head>
+<body>
+     <!--stat of header-->
+	 <header>
+    <div class="header0">
+        <a href="https://play.google.com/store/movies?hl=en" class="tag01">Mobile App</a> |
+        <a href="https://www.google.lk/maps" class="tag01">Find Us </a>
+    </div>  
+    <div class = "header">
+            <div class = "logo_container">
+                <img src = "pictures/1.png" class = "logo">
+                <div class="search-container">
+                    <input type="text" placeholder="        Search here...." name="search" class="search">
+                     <a href="regform.php" class="singin">Sign up</a>|
+                    <a href="sign in page.html" class="singin">Log in</a>
+				
+                </div>              
+            </div>  
+    </div>
+    <div class="headerNavigation">
+        <ul class="nav">
+            <li class="nav"><a href="homepage.html"> <b>Home</b></a></li>
+            <li class="nav"><a href="regform.php"><b>Register</b></a></li>
+            <li class="nav"><a href="Package.html"> <b>Products</b></a></li>
+            <li class="nav"><a href="news page.html"><b>News</b></a></li>
+            <li class="nav"><a href="contactus1.php"><b>Contact Us</b></a></li>
+            <li class="nav"><a href="Support_service.html"> <b>About Us</b></a></li>
+        </ul>
+    </div>
+    </header>
+	<!--end of header-->
+
+
+    <br><br><br>
+		<center>
+			<div class="eDtrefo" id="pgmgr">
+
+			   <form action="repw.php"method="POST"> <!--joining the php file-->
+			  
+				<form action="#" method="POST" target="_self" onsubmit="return checkPswrd()">
+
+                                        
+
+					<h1 align ="center">Password Recovery Portal</h1>
+
+					<br><br>
+
+
+			<label><font color="black" size="5%"> Enter The Valid Phone Number </font></label><br><br>
+			<input type = "text"  id = "fnicno" name ="fnicnos" pattern ="[0-9]{5,10}" placeholder = "Enter The Phone Number " class="Usedat" required>
+
+			<div>
+
+			<br><br>
+			<label><font color="black" size="5%"> Password</font></label><br><br>
+			<input type = "password" id= "fpswd" name="fpswd" pattern ="[a-zA-Z0-9.%+-]*{8}" class= "frmdata" placeholder="Enter New Password" required>
+
+			<br><br>
+			<label><font color="black" size="5%"> Re-Enter Password</font></label><br><br>
+			<input type = "password" id= "frpswd" name="frpswd" pattern ="[a-zA-Z0-9.%+-]*{8}" class= "frmdata" placeholder="Re-Enter Password" required>
+
+		    </div>
+		  
+            <br><br>
+            <input type="checkbox" id="chckb" name ="chckb"  onclick = "enablebutton()"  required>Accept Privacy & Policy Terms
+            <br><br>
+
+		    <button type="submit" class ="buttonpress" id="subms" name="subms" disabled>Submit</button><br><br>
+
+                     
+
+                    </form>
+               
+
+
+
+
+			</div>
+
+
+
+		</center>
+        <br><br>
+
+          <!--stat of footer-->
+	<footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <h4>Quick Links</h4>
+
+          <ul>
+            <li>
+              <a href="homepage.html">Home</a>
+            </li>
+
+            <li>
+              <a href="Support_service.html">About</a>
+            </li>
+
+            <li>
+              <a href="contactus1.php">Contact</a>
+            </li>
+
+            <li>
+              <a href="Package.html">Products</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-right">
+          <h4>Follow us on</h4>
+
+          <div class="social-icons">
+            <a href="https://www.instagram.com/">
+              <img src="pictures/2.png" alt="" />
+            </a>
+
+            <a href="https://www.instagram.com/">
+              <img src="pictures/3.png" alt="" />
+            </a>
+
+            <a href="https://www.instagram.com/">
+              <img src="pictures/4.png" alt="" />
+            </a>
+          </div>
+
+          <p>This website is managed by INNOVA Group</p>
+        </div>
+      </div>
+    </footer>
+
+           <!--end of footer-->
+
+
+
+	</body>
+	</html>

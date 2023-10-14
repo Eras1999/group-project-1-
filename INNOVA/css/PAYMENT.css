@@ -1,0 +1,40 @@
+/*PAYMENT body css*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body:text{
+    background-image:url(Picture/PAY1.jpg);   
+    background-size:cover;
+    background-attachment:fixed;
+  }
+
+
+.cl1{
+	height :65px; 
+	width : 60%;	
+}
+
+.cl2{
+	height :35px; 
+	width : 100px;
+}
+
+.btpaym{
+	width:15%;
+	height:8%;
+	border:none;
+	background-color: lightgreen;
+	cursor:pointer;
+}
+
+.subdt{
+	width:10%;
+	height:8%;
+	border:none;
+	background-color: orange;
+	cursor:pointer;
+}

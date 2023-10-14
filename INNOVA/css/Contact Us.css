@@ -1,0 +1,106 @@
+/*contactus body css*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body:text{
+    background-image:url(Picture/contact.jpg);   
+    background-size:cover;
+    background-attachment:fixed;
+  }
+
+
+.hed3
+{
+	background-color: #F0E68C;
+	height:1000px;
+	width:900px;
+	left:30%;
+	bottom:20%;
+	top:80%;
+}
+
+.hed3 h1 {
+
+	top:50%;
+	left:35%;
+	font-family: sans-serif;
+	color:black;
+	font-size:35;
+}
+
+#sen1
+{
+	text-align: center;
+	font-size: 30px;
+	color:black;
+	text-decoration: underline;
+}
+.lbl
+{
+	position: relative;
+	left:10px;
+	font-size: 25px;
+	font-style: serif;
+	color:black;
+}
+.field
+{
+	height: 50px;
+	width:650px;
+	left:10px;
+}
+.field1
+{
+	height: 50px;
+	width:650px;
+	left:10px;
+}
+.attach
+{
+	height: 40px;
+	width :550px;
+	position: relative;
+	left: 50px;
+}
+
+file.choose
+{
+	left:550px;
+}
+
+
+
+.msg
+{
+	position: relative;
+	left:10px;
+}
+
+.send
+{
+	border-radius: 3px;
+	border:none;
+	width:90px;
+	height:30px;
+	background-color: #C0392B;
+	left:600px;
+	bottom: 4px;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+
+.send:hover
+{
+	background-color: red;
+}
+
+
+
+
+
+

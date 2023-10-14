@@ -1,0 +1,195 @@
+/*Package body css*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+
+
+li a {
+
+	display:block;
+	color:black;
+	text-align:center;
+	padding:5px 12px;
+	text-decoration:none;
+	}
+
+li a:hover{
+	background-color:rgb(0, 0, 0);
+	color: black;
+	}
+	
+	body{
+	background: #FAFAD2;
+	background-size : cover;
+	background-position:right;
+	width:100%;
+	height:100%;
+	align-items:right;
+	justify-content:right; 
+	min-height:150vh;	
+}
+
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial,Helvetica,sans-serif;
+	outline:none;
+	color:black;
+}
+
+
+table
+{
+	padding: 15px;
+   border-spacing: 15px;
+}
+
+}
+
+
+
+
+
+li a 
+{
+  color : black;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover 
+{
+  background-color: #0000A0;
+}
+
+.btn1 {
+
+	margin:4px 4px 4px 4px;
+	width:50%;
+	height:50px;
+	background-color: #c2d6d6;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.btn1:hover{
+
+	background-color:#e6e600;
+}
+
+.txt1
+{
+	font-size: 40px;
+	font-family: Georgia, serif ;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color:#000000;
+	font-weight: bold;
+	text-decoration: underline overline;
+}
+
+
+.INVESTMENT
+{
+	position: absolute;
+	left: 40%;
+	top:145%;
+
+}
+.txt2
+{
+	font-size: 30px;
+	font-family: Georgia, serif ;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color:#0039e6;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.txt3
+{
+	font-size: 20px;
+	font-family: Georgia, serif ;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.txt4
+{
+	font-size: 30px;
+	font-family: Georgia, serif ;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color:#0039e6;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.txt5
+{
+	font-size: 20px;
+	font-family: Georgia, serif ;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.txt6
+{
+	font-size: 20px;
+	font-family: Georgia, serif ;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.txt7
+{
+	font-size: 20px;
+	font-family: Georgia, serif ;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.txt8
+{
+	font-size: 30px;
+	font-family: Georgia, serif ;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color:#0039e6;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.txt9
+{
+	font-size: 20px;
+	font-family: Georgia, serif ;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+table, th{
+	font-size: 30px;
+	font-family: Georgia, serif ;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color:Dark brown;
+	font-weight: bold;
+text-decoration: none;}

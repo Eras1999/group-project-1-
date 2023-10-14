@@ -1,0 +1,195 @@
+/*sign in & repw body css*/
+.buttonpress {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 12px;
+  margin: 8px 0;
+  border: none;
+  cursor:pointer;
+  width: 20%;
+}
+
+.Usedat {
+
+	background-color:white;
+	color:black;
+	padding:12px 12px;
+	margin: 8px 0;
+	width: 50%;
+
+}
+
+.editpg{
+	width:350px;
+	position:relative;
+	top:50%;
+	left:40%;
+	transform:translate(-10%, -10%);
+	color:black;
+
+}
+.editpg h1{
+	float:left;
+	font-size:40px;
+	border-bottom:6px solid forestgreen;
+	margin-bottom:50px;
+	padding:10px 0;
+}
+
+.txtbox{
+	width:100%;
+	overflow:hidden;
+	font-size:20px;
+	padding:8px 0;
+	margin:8px 0;
+	border:2px;
+	border-style: solid;
+	border-color: black;
+}
+
+.txtbox input{
+	border:none;
+	outline:none;
+	background:none;
+	color:black;
+	font-size:18px;
+	width:80%;
+	float:left;
+	margin:0 10px;
+}
+
+
+
+
+.pgmgr{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	width:20%;
+	
+}
+
+.edbton{
+	
+	width:20%;
+	background-color: tomato;
+	padding:10px 10px;
+	border:none;
+	cursor:pointer;
+	text-align: center;	
+
+	
+
+}
+
+.eDtrefo{
+	background-color:lightgray;
+	width:60%;
+	padding:8px;
+	
+}
+
+.eDtrefo h1{
+	float:center;
+	font-size:30px;
+	border-bottom:6px solid forestgreen;
+	margin-bottom:90px;
+	padding:10px 0;
+
+}
+
+
+.frmdata{
+	background-color:white;
+	padding:5px;
+	color:black;
+	width:60%;
+
+}
+
+
+.pdbd{
+	background-color: skyblue;
+	padding:10px 10px;
+	border:none;
+	width:20%;
+	text-decoration:none;
+	cursor: pointer;
+
+}
+
+
+
+.seted{
+	position:absolute;
+	top:280px;
+	width:2%;
+	left:850px;
+	cursor: pointer;
+}
+
+.pend{
+	position:absolute;
+	top:280px;
+	width:2%;
+	left:800px;
+	cursor: pointer;
+
+}
+
+
+#butdd{
+	width:60%;
+	height:30%;
+	padding:10px 10px;
+	border:none;
+	cursor:pointer;
+	text-align: left;
+	
+
+}
+
+
+
+.cmpsb {
+  background-color: powderblue;
+  color: black;
+  padding: 12px 12px;
+  margin: 8px 0;
+  border: none;
+  cursor:pointer;
+  width: 20%;
+}
+
+.butdd1{
+	width:60%;
+	height:30%;
+	padding:10px 10px;
+	border:none;
+	cursor:pointer;
+	text-align: left;
+	
+
+}
+.btnn1{
+	
+	width:100%;
+	border-width:3px;
+	border-color:black;
+	border-style: solid;
+	color:midnightblue;
+	padding:5px;
+	cursor:pointer;
+	margin :12px 0;
+	background:none;
+	font-size: 18px;
+
+}
+
+
+.eDpgg{
+	background-color:white;
+	width:100%;
+	padding:5px;
+}
